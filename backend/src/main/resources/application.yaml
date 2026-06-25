@@ -6,3 +6,9 @@ spring:
     url: jdbc:mariadb://localhost:3306/miniauth
     username: root
     password: root
+# JWT 설정 추가
+app:
+  jwt:
+    secret: "jwtprojectforrefreshtokenthisissecretkey"
+    access-token-validity: 1800000    # 30분 (ms)
+    refresh-token-validity: 604800000  # 7일 (ms)
