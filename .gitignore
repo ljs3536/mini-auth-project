@@ -1,0 +1,23 @@
+# --- 공통 설정 ---
+.idea/
+.DS_Store
+*.log
+
+# --- Backend (Spring Boot) ---
+backend/build/
+backend/.gradle/
+backend/out/
+backend/.settings/
+backend/.classpath
+backend/.project
+
+# --- Frontend (Next.js) ---
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env* # 주의: .env 파일은 절대 커밋하면 안 됩니다 (비밀번호/키 유출 방지)
+
+# --- 기타 ---
+.gradle/
